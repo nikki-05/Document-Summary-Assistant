@@ -1,14 +1,17 @@
 const express = require('express');
-const multer = require('multer');
 const cors = require('cors');
-const summarizerRoutes = require('./routes/summarizerRoutes');
+const fileUpload = require('express-fileupload');
+const uploadRoute = require('./routes/upload');
 
 const app = express();
+const PORT = 5000;
+
+// Middleware
 app.use(cors());
 app.use(express.json());
+app.use(fileUpload());
 
-const upload = multer({ dest: 'uploads/' });
-app.use('/api/summarize', upload.single('file'), summarizerRoutes);
+// Routes
+app.use('/api/upload', uploadRoute);
 
-const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));

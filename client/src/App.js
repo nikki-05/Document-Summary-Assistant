@@ -1,14 +1,14 @@
 import React from 'react';
-import FileUploader from './components/FileUploader';
+import FileUpload from './components/FileUpload';
 import './App.css';
 
-function App() {
-    return (
-        <div className="App">
-            <h1>Document Summary Assistant</h1>
-            <FileUploader />
-        </div>
-    );
-}
+const App = () => (
+  <div className="app-background">
+    <h1 className="app-title">Document Summary Assistant</h1>
+    <div className="app-container">
+      <FileUpload />
+    </div>
+  </div>
+);
 
 export default App;
