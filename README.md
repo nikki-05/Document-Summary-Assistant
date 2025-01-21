@@ -75,6 +75,9 @@ document-summary-app/
 │   └── public/
 │       └── index.html
 ```
+## Snapshot of the Application
+
+![image](https://raw.githubusercontent.com/nikki-05/Document-Summary-Assistant/refs/heads/main/Screenshot%202025-01-21%20173109.png)
 
 ## Future Enhancements
 - Support for more file formats (e.g., Word documents).
