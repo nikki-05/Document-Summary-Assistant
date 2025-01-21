@@ -1,1 +1,4 @@
 # Document-Summary-Assistant
+The Document Summary Assistant is a web application designed to simplify document comprehension by generating smart summaries for uploaded PDFs and images. The backend leverages pdf-parse for PDF parsing and tesseract.js for OCR-based text extraction. Summaries are created using an extractive summarization approach, optionally enhanced by AI/ML APIs like OpenAI.
+The frontend, built with React, provides an intuitive user interface, enabling users to upload files via drag-and-drop or file picker. Loading states and error messages ensure a seamless experience. Users can choose summary lengths (short, medium, long) to meet different needs.
+The application prioritizes accessibility with a mobile-responsive design and scalable hosting on platforms like Vercel. The codebase is clean, modular, and production-ready, featuring basic error handling and detailed documentation for future enhancements.
