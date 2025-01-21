@@ -77,7 +77,7 @@ document-summary-app/
 ```
 ## Snapshot of the Application
 
-![image]((https://raw.githubusercontent.com/nikki-05/Document-Summary-Assistant/refs/heads/main/snap.png))
+![image](https://raw.githubusercontent.com/nikki-05/Document-Summary-Assistant/refs/heads/main/snap.png)
 
 ## Future Enhancements
 - Support for more file formats (e.g., Word documents).
